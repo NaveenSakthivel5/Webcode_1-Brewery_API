@@ -1,0 +1,107 @@
+#headerID {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+
+#logoImg {
+    height: 130px;
+}
+
+
+#searchDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+body {
+    margin: 0px;
+}
+
+#parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgba(187, 178, 160, 0.795);
+}
+
+#child {
+    flex: 1 0 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(245, 94, 7);
+    padding: 20px;
+    margin: 20px;
+    max-width: 330px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#child:hover {
+    transform: scale(1.05);
+}
+
+#img {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#breweryName,#breweryType,#location,#phone{
+    text-align: center;
+    word-wrap: break-word ;
+}
+
+.website-icon{
+  color: #2196f3;
+  margin-right: 5px;
+}
+
+#breweryType > b {
+    font-size: 25px;
+}
+
+.website-link{
+  color: #2196f3;
+  font-weight: bold;
+}
+
+.website-link:hover{
+  text-decoration: underline;
+}
+
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+  
+#pagination button {
+    border: none;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 8px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+  
+#pagination button:hover {
+    background-color: #ddd;
+}
+
+#pagination button.active {
+    background-color: #2196f3;
+    color: #fff;
+}
+  
